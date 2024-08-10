@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Ngafe",
+    "slug": "ngafe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.albertpurnawan.ngafe"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.albertpurnawan.ngafe"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7fda34db-469e-45e4-bc33-229db1c3c069"
+      }
+    },
+    "owner": "albertpurnawan",
+    "updates": {
+      "url": "https://u.expo.dev/7fda34db-469e-45e4-bc33-229db1c3c069"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
